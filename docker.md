@@ -1,4 +1,4 @@
-# windows版安装（官网上要求PC需要支持虚拟化技术）：
+# windows版安装（docker官网上要求PC需要支持虚拟化技术）：
 
 ### 带有Hyper-V的64位Windows 10 Pro(docker for windows):
 
