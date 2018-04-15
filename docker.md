@@ -8,7 +8,7 @@ https://docs.docker.com/docker-for-windows/install/
 
 https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe
 
-2.其他版本的Windows：
+2.其他版本的Windows：（#### 因本次为入门演示，Docker Toolbox for Windows完全够用）
 
 https://docs.docker.com/toolbox/toolbox_install_windows/
 
