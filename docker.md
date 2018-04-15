@@ -1,6 +1,6 @@
-### windows版安装：
+# windows版安装：
 
-1.带有Hyper-V的64位Windows 10 Pro:
+### 带有Hyper-V的64位Windows 10 Pro(docker for windows):
 
 https://docs.docker.com/docker-for-windows/install/
 
@@ -9,7 +9,7 @@ https://docs.docker.com/docker-for-windows/install/
 https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe
 
 ###### 因本次为入门演示，Docker Toolbox for Windows完全够用
-2.其他版本的Windows：
+### 其他版本的Windows(Docker Toolbox for Windows)：
 
 https://docs.docker.com/toolbox/toolbox_install_windows/
 
