@@ -50,3 +50,10 @@ https://docs.docker.com/install/linux/docker-ce/centos/
 Fedora：
 
 https://docs.docker.com/install/linux/docker-ce/fedora/
+
+# docker 镜像的下载：（此次演示主要会用到Gitlab、Jenkins、blueocean，为了节省时间，希望同学们能提前把镜像下载好）
+docker pull gitlab/gitlab-ce
+
+docker pull jenkinsci/blueocean
+
+docker pull jenkins
