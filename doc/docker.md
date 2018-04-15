@@ -58,4 +58,4 @@ docker pull jenkinsci/blueocean
 
 docker pull jenkins
 
-![img](../img/snipaste20180415_110353.png)
+![img](../img/snipaste20180415_110453.png)
