@@ -5,4 +5,6 @@ devops工具链专场
 
 2.[Jenkins的安装](doc/Jenkins安装文档.doc)
 
-3.[Python Selenium的安装](doc/PythonSelenium安装说明.docx)
+3.[Git的安装](doc/git的安装.md)
+
+4.[Python Selenium的安装](doc/PythonSelenium安装说明.docx)
