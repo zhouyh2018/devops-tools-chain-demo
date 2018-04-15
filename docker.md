@@ -28,3 +28,11 @@ https://docs.docker.com/install/linux/docker-ce/centos/
 Fedora：
 
 https://docs.docker.com/install/linux/docker-ce/fedora/
+
+virtualbox安装文件：
+
+https://download.virtualbox.org/virtualbox/5.2.8/VirtualBox-5.2.8-121009-Win.exe
+
+virtualbox使用手册：
+
+https://download.virtualbox.org/virtualbox/5.2.8/UserManual.pdf
