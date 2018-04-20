@@ -22,6 +22,10 @@ docker run -d \
 
 docker exec -it containerName bash
 
+docker logs -f containerId
+
+docker stats
+
 3.编译及运行工程
 
 cd /var/apps/docker
