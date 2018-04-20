@@ -1,4 +1,5 @@
 1.gitlab的安装
+
 sudo docker run --detach \
     --hostname gitlab.example.com \
     --publish 443:443 --publish 80:80 \
@@ -10,6 +11,7 @@ sudo docker run --detach \
     gitlab/gitlab-ce
 
 2.Jenkins的安装
+
 docker run -d \
   --rm \
   -p 8081:8080 \
@@ -21,6 +23,9 @@ docker run -d \
 docker exec -it containerName bash
 
 3.编译及运行工程
+
 cd /var/apps/docker
+
 docker build -t aura/docker .
+
 docker run -d -p 8080:8080 aura/docker
