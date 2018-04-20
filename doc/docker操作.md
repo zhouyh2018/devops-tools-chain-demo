@@ -20,4 +20,7 @@ docker run -d \
 
 docker exec -it containerName bash
 
-3.
+3.编译及运行工程
+cd /var/apps/docker
+docker build -t aura/docker .
+docker run -d -p 8080:8080 aura/docker
