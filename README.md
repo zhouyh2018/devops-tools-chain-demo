@@ -10,3 +10,5 @@ devops工具链专场
 4.[Python Selenium的安装](doc/PythonSelenium安装说明.docx)
 
 5. docker 是 sample 工程
+
+6. test
