@@ -22,9 +22,10 @@ node {
               sh "docker build -f Dockerfile -t ${env.IMG_NAME}:${env.IMG_TAG} ."
               }
 
-       stage 'Deploy Image'
+       stage 'Deploy App'
+              env.APP_IMG="${env.IMG_NAME}:${env.IMG_TAG}"
               withDockerServer([uri: "${env.DEV_SERVER}"]) {
-              sh "docker run -d -p 8080:8080 ${env.IMG_NAME}"
+              sh "export APP_IMG=${env.APP_IMG} && scripts/startApp.sh"
               }
 
        stage 'UI Test'
