@@ -9,6 +9,12 @@ devops工具链专场
 
 4.[Python Selenium的安装](doc/PythonSelenium安装说明.docx)
 
-5. docker 是 sample 工程
+### CI 流水线相关说明
 
-6. test
+- docker Java工程目录
+- Dockerfile 镜像构建配置
+- Jenkinsfile 持续集成配置
+- scripts/startApp.sh  应用部署脚本
+- scripts/startWeb.sh  测试结果展示脚本
+- test.py 自动化验收测试脚本
+- changeEnv.sh 小组环境替换脚本
