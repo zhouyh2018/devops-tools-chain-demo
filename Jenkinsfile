@@ -1,6 +1,6 @@
 env.SCM_URL = "https://github.com/myownsoul/devops-tools-chain-demo.git"
 env.IMG_REG = "aura"
-env.IMG_NAME = "${env.IMG_REG}/hello-devops-<TEAM_ID>"
+env.IMG_NAME = "${env.IMG_REG}/hello-devops-0"
 env.IMG_TAG = "${env.BUILD_NUMBER}"
 env.DEV_SERVER = "tcp://127.0.0.1:2375"
 

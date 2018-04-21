@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Check whether result container is exist
-docker ps |grep result-devops-<TEAM_ID>
+docker ps |grep result-devops-0
 if [ $? -eq 0 ]
 then
-   docker stop result-devops-<TEAM_ID> && docker rm -v result-devops-<TEAM_ID>
+   docker stop result-devops-0 && docker rm -v result-devops-0
 fi
 
 # Start app container with latest test result file
-docker run -d --name result-devops-<TEAM_ID> -p 909<TEAM_ID>:80 -v /website-<TEAM_ID>:/usr/share/nginx/html:ro nginx:alpine
+docker run -d --name result-devops-0 -p 9090:80 -v /website-0:/usr/share/nginx/html:ro nginx:alpine
