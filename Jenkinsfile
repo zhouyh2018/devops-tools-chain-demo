@@ -29,5 +29,4 @@ node {
 
        stage 'UI Test'
               echo 'python test.py'
-              }
        }
