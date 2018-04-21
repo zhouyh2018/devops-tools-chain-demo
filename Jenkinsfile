@@ -29,7 +29,7 @@ node {
               }
 
        stage 'UI Test'
-              sh 'python test.py'
+              sh 'docker restart f0211beddcc3 c386ae8dc472 && sleep 10 && python test.py'
 
        stage 'Show Test'
               withDockerServer([uri: "${env.DEV_SERVER}"]) {
