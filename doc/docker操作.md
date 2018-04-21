@@ -12,12 +12,13 @@ sudo docker run --detach \
 
 2.Jenkins的安装
 
-docker run -d \
+docker run \
   --rm \
+  -u root \
   -p 8081:8080 \
   -v jenkins-data:/var/jenkins_home \
   -v /var/run/docker.sock:/var/run/docker.sock \
-  -v "$HOME":/home \
+  -v /srv/jenkins/home:/home \
   jenkinsci/blueocean
 
 docker exec -it containerName bash
