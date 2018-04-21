@@ -8,4 +8,5 @@ then
 fi
 
 # Start app container with latest test result file
-docker run -d --name result-devops -p 9090:80 -v devops.png:/usr/share/nginx/html:ro 
+docker run -d --name result-devops -p 9090:80 -v devops.png:/usr/share/nginx/html:ro nginx:alpine
+
