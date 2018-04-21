@@ -10,7 +10,7 @@ chrome_capabilities ={
 
 browser=webdriver.Remote("http://114.115.170.21:5555/wd/hub",desired_capabilities=chrome_capabilities)  #注意端口号5555是我们上文中映射的宿主机端口号
 
-browser.get("http://114.115.170.21:9080/")
+browser.get("http://114.115.170.21:908<TEAM_ID>/")
 
 browser.get_screenshot_as_file("/website-<TEAM_ID>/devops.png")
 
