@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Check whether app container is exist
-docker ps |grep exam-ap
+docker ps |grep hello-devops
 if [ $? -eq 0 ]
 then
    docker stop hello-devops && docker rm -v hello-devops
