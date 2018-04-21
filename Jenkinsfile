@@ -24,10 +24,10 @@ node {
 
        stage 'Deploy Image'
               withDockerServer([uri: "${env.DEV_SERVER}"]) {
-              sh "docker run -d env.IMG_NAME"
+              sh "docker run -d -p 8080:8080 env.IMG_NAME"
               }
 
        stage 'UI Test'
-              echo 'UI Test'
+              echo 'python test.py'
               }
        }
