@@ -8,3 +8,5 @@ devops工具链专场
 3.[Git的安装](doc/git的安装.md)
 
 4.[Python Selenium的安装](doc/PythonSelenium安装说明.docx)
+
+5. docker 是 sample 工程
