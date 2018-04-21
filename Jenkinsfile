@@ -25,7 +25,7 @@ node {
        stage 'Deploy App'
               env.APP_IMG="${env.IMG_NAME}:${env.IMG_TAG}"
               withDockerServer([uri: "${env.DEV_SERVER}"]) {
-              sh "export APP_IMG=${env.APP_IMG} && startApp.sh"
+              sh "export APP_IMG=${env.APP_IMG} && ./startApp.sh"
               }
 
        stage 'UI Test'
