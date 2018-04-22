@@ -29,7 +29,7 @@ node {
               }
 
        stage 'UI Test'
-              sh 'docker restart f0211beddcc3 c386ae8dc472 && sleep 10 && python test.py && chmod -R 775 /website-<TEAM_ID>'
+              sh 'docker restart f0211beddcc3 c386ae8dc472 && sleep 10 && python test.py && chmod -R 755 /website-<TEAM_ID>'
 
        stage 'Show Test'
               withDockerServer([uri: "${env.DEV_SERVER}"]) {
