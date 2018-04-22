@@ -17,4 +17,4 @@ devops工具链专场
 - scripts/startApp.sh  应用部署脚本
 - scripts/startWeb.sh  测试结果展示脚本
 - test.py 自动化验收测试脚本
-- changeEnv.sh 小组环境替换脚本
+- changeEnv.sh 小组环境替换脚本 (0,1,2,3,4)

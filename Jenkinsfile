@@ -1,6 +1,6 @@
 env.SCM_URL = "https://github.com/myownsoul/devops-tools-chain-demo.git"
 env.IMG_REG = "aura"
-env.IMG_NAME = "${env.IMG_REG}/hello-devops-0"
+env.IMG_NAME = "${env.IMG_REG}/hello-devops-<TEAM_ID>"
 env.IMG_TAG = "${env.BUILD_NUMBER}"
 env.DEV_SERVER = "tcp://127.0.0.1:2375"
 
@@ -29,7 +29,7 @@ node {
               }
 
        stage 'UI Test'
-              sh 'docker restart f0211beddcc3 c386ae8dc472 && sleep 10 && python test.py'
+              sh 'docker restart f0211beddcc3 c386ae8dc472 && sleep 10 && python test.py && chmod -R 755 /website-<TEAM_ID>'
 
        stage 'Show Test'
               withDockerServer([uri: "${env.DEV_SERVER}"]) {
